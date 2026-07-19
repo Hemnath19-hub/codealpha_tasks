@@ -96,21 +96,6 @@ Optimized layouts for:
 
 ---
 
-## Screenshots
-
-> Add screenshots of your project here.
-
-Example:
-
-```
-screenshots/
-│
-├── home.png
-├── dark-mode.png
-├── lightbox.png
-└── mobile.png
-```
-
 ## Author
 
 **Hemnath M**
