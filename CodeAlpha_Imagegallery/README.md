@@ -4,7 +4,7 @@ A modern and responsive Image Gallery built using *HTML, CSS, and JavaScript*. T
 
 ---
 ## Live Demo
-
+https://hemnath19-hub.github.io/codealpha_tasks/CodeAlpha_Imagegallery/
 ## Features
 
 - Filter images by category
