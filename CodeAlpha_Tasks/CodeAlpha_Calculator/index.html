@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="color-buttons">
+        <button class="default" onclick="changeColor('default',this)"></button>
+        <button class="blue" onclick="changeColor('blue',this)"></button>
+        <button class="green" onclick="changeColor('green',this)"></button>
+        <button class="red" onclick="changeColor('red',this)"></button>
+        <button class="yellow" onclick="changeColor('yellow',this)"></button>
+    </div>
+    <button id="theme" onclick="theme()" >
+        <span class="light">☀︎</span>
+        <span class="dark">☾</span>
+   </button>
+<div class="calculator">
+
+    <input type="text" id="display" placeholder="0" readonly>
+
+    <div class="buttons">
+        <button onclick="clearDisplay()" class="opBtn2">AC</button>
+        <button onclick="appendToDisplay( '(' )" class="opBtn2">(</button>
+        <button onclick="appendToDisplay( ')' )" class="opBtn2">)</button>
+        <button onclick="appendToDisplay('/')" class="opBtn1">÷</button>
+
+        <button onclick="appendToDisplay('7')">7</button>
+        <button onclick="appendToDisplay('8')">8</button>
+        <button onclick="appendToDisplay('9')">9</button>
+        <button onclick="appendToDisplay('*')" class="opBtn1">×</button>
+
+        <button onclick="appendToDisplay('4')">4</button>
+        <button onclick="appendToDisplay('5')">5</button>
+        <button onclick="appendToDisplay('6')">6</button>
+        <button onclick="appendToDisplay('-')" class="opBtn1">-</button>
+
+        <button onclick="appendToDisplay('1')">1</button>
+        <button onclick="appendToDisplay('2')">2</button>
+        <button onclick="appendToDisplay('3')">3</button>
+        <button onclick="appendToDisplay('+')" class="opBtn1">+</button>
+
+        <button onclick="appendToDisplay('.')" class="opBtn2 dot">.</button>
+        <button onclick="appendToDisplay('0')">0</button>
+        <button onclick="backspace()" class="opBtn2">⌫</button>
+        <button onclick="calculate()" class="eqBtn">=</button>
+    </div>
+
+</div>
+<div class="copyright">&copy; 2026 HemnatH</div>
+<script src="script.js"></script>
+
+</body>
+</html>
