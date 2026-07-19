@@ -2,6 +2,8 @@
 
 A modern and responsive calculator built using **HTML**, **CSS**, and **JavaScript**. This project performs basic arithmetic operations with a clean user interface, supports keyboard input, includes Dark/Light mode, customizable color themes, and remembers user preferences using Local Storage.
 
+## Live Demo
+ https://hemnath19-hub.github.io/codealpha_tasks/CodeAlpha_Calculator/
 ---
 
 ## Features
