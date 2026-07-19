@@ -1,14 +1,84 @@
-# CodeAlpha Calculator
+# Responsive Calculator
 
-A clean, responsive web calculator application created as part of the CodeAlpha internship tasks.
+A modern and responsive calculator built using **HTML**, **CSS**, and **JavaScript**. This project performs basic arithmetic operations with a clean user interface, supports keyboard input, includes Dark/Light mode, customizable color themes, and remembers user preferences using Local Storage.
 
-##  Features
-* Basic arithmetic operations: +, -, *, /
-* Responsive UI design for mobile and desktop compatibility
-* Clean and minimalist user interface
+---
 
-##  Tech Stack
-* *HTML5* - Structure
-* *CSS3* - Styling & Layout
-* *JavaScript* - Core logic and functionality
+## Features
 
+- Basic arithmetic operations (+, −, ×, ÷)
+- Real-time calculations
+- Bracket support `( )`
+- Backspace functionality
+- Clear (AC) button
+- Keyboard support
+- Dark & Light mode
+- Multiple color themes
+  - Default
+  - Blue
+  - Green
+  - Red
+  - Yellow
+- Theme and color preference saved using Local Storage
+- Glassmorphism-inspired UI
+- Button press animations
+- Fully responsive design for desktop and mobile
+- Error handling for invalid expressions
+
+---
+
+## Built With
+
+- HTML5
+- CSS3
+- JavaScript
+
+---
+
+## Project Structure
+
+```
+Calculator/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
+
+---
+
+## Keyboard Shortcuts
+
+| Key | Action |
+|------|--------|
+| 0 - 9 | Enter Numbers |
+| + - * / | Arithmetic Operations |
+| ( ) | Brackets |
+| . | Decimal Point |
+| Enter | Calculate Result |
+| Backspace | Delete Last Character |
+| Delete | Clear Display |
+
+---
+
+##  Responsive Design
+
+The calculator is optimized for:
+
+- Desktop
+- Laptop
+- Mobile Phones
+- Tablets
+
+---
+
+##  Author
+
+**Hemnath H**
+
+Computer Science Student | Aspiring Full Stack Developer
+
+---
+
+If you found this project helpful or interesting, consider giving it a **Star** on GitHub!
