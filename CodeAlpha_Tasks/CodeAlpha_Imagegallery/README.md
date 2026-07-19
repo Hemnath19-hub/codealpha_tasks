@@ -59,7 +59,7 @@ Image-Gallery/
 
 ---
 
-##Features Breakdown
+## Features Breakdown
 
 ### Image Filtering
 Display images based on selected categories using JavaScript.
